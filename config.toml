@@ -16,8 +16,7 @@ paginate = 3
 [params]
   google_analytics_id = ""
   twitter_handle = "@mahadev__k"
-  cloudinary_url = "https://res.cloudinary.com/mahadevspace"
-
+  
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
   showPostsOnHomepage = false
