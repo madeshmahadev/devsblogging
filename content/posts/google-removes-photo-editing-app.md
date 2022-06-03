@@ -1,6 +1,6 @@
 ---
 title: Play Store removes photo editing app with 100k downloads for stealing passwords
-image: https://ucarecdn.com/2135fd6c-f685-4a81-b6a2-4e2e7dfb2dc2/img1.jpeg
+image: https://ucarecdn.com/e6c012c3-c629-4e25-b380-1f53a03dc161/screenshot-2022-05-21-at-12-07-48-google-app-security-alert.webp-webp-image-1024-c397-576-pixels.webp
 date: 2022-06-03T21:22:52.343Z
 description: A month ago, Google Play removed an app called "Craftsart Cartoon
   Photo Tools" after the cyber security company Pradeo found the app was
