@@ -23,11 +23,9 @@ collections: # A list of collections the CMS should be able to edit
       -   label: 'Cover Image'
           name: 'image'
           widget: 'image'
-          choose_url: true
+          choose_url: false
           required: true
-          media_library: 
-            name: cloudinary,
-            cloudinary output_filename_only: true
+          
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
