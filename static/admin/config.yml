@@ -2,23 +2,34 @@ backend:
   name: git-gateway
 
 # global
+# media_library:
+#   name: cloudinary
+#   config:
+#     cloud_name: 'mahadevspace'
+#     api_key: '143844221562253'
+#     default_transformations:
+#       - - fetch_format: auto
+#           quality: auto
+
 media_library:
-  name: cloudinary
+  name: uploadcare
   config:
-    cloud_name: 'mahadevspace'
-    api_key: '143844221562253'
-    default_transformations:
-      - - fetch_format: auto
-          quality: auto
+    publicKey: '177a79e20ea83ecb47f3'
+  settings:
+    autoFilename: true
+
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'post' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Post' # Used in the UI, ie.: "New Post"
     folder: 'content/posts' # The path to the folder where the documents are stored
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Cover Image', name: 'image', widget: 'image', choose_url: false, required: true, media_library: { output_filename_only: true } }
+      - { label: 'Cover Image', name: 'image', widget: 'image', choose_url: false, required: true }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
