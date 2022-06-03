@@ -300,7 +300,7 @@ ul {
     border-radius: 50%;
     display: inline-block;
     vertical-align: middle;
-    border: 2px solid var(--heading-color); }
+    border: 2px solid var(--highlight-color); }
   .author .author-name {
     display: inline-block;
     vertical-align: middle;

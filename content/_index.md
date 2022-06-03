@@ -1,6 +1,6 @@
 ---
-title: You don't start out writing good stuff
-description: The hallway smelt of boiled cabbage and old rag mats.
+title: Just another tech blogging site
+description: Welcome to my Blogging Site
 ---
 
-The hallway smelt of boiled cabbage and old rag mats. At one end of it a coloured poster, too large for indoor display, had been tacked to the wall. It depicted simply an enormous face, more than a metre wide: the face of a man of about forty-five, with a heavy black moustache and ruggedly handsome features. Winston made for the stairs. It was no use trying the lift. 
+I'm Mahadev, a Grad student, freelancer and city dweller who loves travelling, playing guitar, partaking in outdoor activities and finding adventures along the way. I find nothing satisfy me more than meeting new people, developing new relations and expanding my network. I created this Blog site to share my experiences working with new technologies and 

@@ -1,8 +1,17 @@
 backend:
   name: git-gateway
 
-media_folder: 'static/images/uploads'
-public_folder: '/images/uploads'
+# global
+media_library:
+  name: cloudinary
+  output_filename_only: true
+  config:
+    cloud_name: 'mahadevspace'
+    api_key: '143844221562253'
+    default_transformations:
+      - - fetch_format: auto
+          quality: auto
+          crop: scale
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'post' # Used in routes, ie.: /admin/collections/:slug/edit
@@ -11,7 +20,14 @@ collections: # A list of collections the CMS should be able to edit
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Cover Image', name: 'image', widget: 'file'}
+      -   label: 'Cover Image'
+          name: 'image'
+          widget: 'image'
+          choose_url: true
+          required: true
+          media_library: 
+            name: cloudinary,
+            cloudinary output_filename_only: true
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

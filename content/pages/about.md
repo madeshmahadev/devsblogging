@@ -1,6 +1,6 @@
 ---
 title: 'About'
-image: images/writer.jpeg
+image: banner_rzisse
 menu:
   main:
     name: "About"
