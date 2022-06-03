@@ -7,11 +7,9 @@ media_library:
   config:
     cloud_name: 'mahadevspace'
     api_key: '143844221562253'
-    api_secret: 'YkM625KcdhI1c3H_t34X5ovGtkI'
     default_transformations:
       - - fetch_format: auto
           quality: auto
-          crop: scale
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'post' # Used in routes, ie.: /admin/collections/:slug/edit
