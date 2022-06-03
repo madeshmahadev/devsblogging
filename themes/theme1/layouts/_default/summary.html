@@ -4,6 +4,9 @@
   {{ else }}
     <div class="summary-date">{{ dateFormat "Jan 2, 2006" .Date }}</div>
   {{ end }}
+  {{ if .Site.Params.showImagesOnPosts }}
+  <img class="summary-cover-image" src="{{ .Params.Image }}" alt="{{ .Title }}"/>
+  {{ end }}
   <h2 class="summary-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
   <p class="summary-description">{{ .Params.description }}</p>
 </div>

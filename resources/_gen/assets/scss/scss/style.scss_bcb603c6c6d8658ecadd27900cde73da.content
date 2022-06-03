@@ -91,7 +91,8 @@ h1, h2, h3 {
 .social-icon {
   margin-right: 10px; }
   .social-icon a {
-    text-decoration: none; }
+    text-decoration: none;
+    margin-right: 0.5rem; }
     .social-icon a:hover {
       text-decoration: none; }
       .social-icon a:hover img {
@@ -235,8 +236,8 @@ ul {
     @media (min-width: 767px) {
       .intro h1 {
         width: 80%;
-        font-size: 88px;
-        line-height: 94px;
+        font-size: 72px;
+        line-height: 80px;
         margin-bottom: 50px; } }
     .intro h1 strong {
       color: var(--highlight-color); }
@@ -274,6 +275,9 @@ ul {
       margin-bottom: 80px;
       font-size: 18px;
       line-height: 26px; } }
+  .summary .summary-cover-image {
+    width: 50%;
+    margin-top: 10px; }
   .summary .summary-date {
     font-weight: bold;
     color: var(--heading-color); }
@@ -285,8 +289,8 @@ ul {
     @media (min-width: 767px) {
       .summary .summary-title {
         width: 80%;
-        font-size: 52px;
-        line-height: 58px; } }
+        font-size: 42px;
+        line-height: 46px; } }
   .summary .summary-description {
     width: 80%; }
 

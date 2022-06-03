@@ -19,7 +19,8 @@ paginate = 3
   
   showAuthorOnHomepage = true
   showAuthorOnPosts = false
-  showPostsOnHomepage = false
+  showPostsOnHomepage = true
+  showImagesOnPosts = true
 
   addFrame = true
   addDot = true

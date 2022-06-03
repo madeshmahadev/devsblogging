@@ -7,6 +7,10 @@
     font-size: 18px;
     line-height: 26px;
   }
+  .summary-cover-image {
+    width: 50%;
+    margin-top: 10px;
+  }
   .summary-date {
     font-weight: bold;
     color: var(--heading-color);
@@ -18,8 +22,8 @@
     line-height: 38px;
     @include breakpoint('small') {
       width: 80%;
-      font-size: 52px;
-      line-height: 58px;
+      font-size: 42px;
+      line-height: 46px;
     }
   }
   .summary-description {
