@@ -1,9 +1,9 @@
 ---
-title: 'About'
-image: banner_rzisse
+title: About
+image: https://ucarecdn.com/2c975a63-8d8a-4a63-acbc-d2d6cf57ae89/banner.png
 menu:
   main:
-    name: "About"
+    name: About
 ---
 
 ## Hey there!
