@@ -7,6 +7,7 @@
       {{ partial "author.html" . }}
     {{ end }}
     <div class="intro">
+      <span>Posted on: {{ dateFormat "Jan 2, 2006" .Date }}</span>
       <h1>{{ .Title }}{{ if .Site.Params.addDot }}<span class="dot">.</span>{{ end }}</h1>
       {{ if .Params.image }}
       <!-- <img src="{{ .Params.image | relURL }}" /> -->
